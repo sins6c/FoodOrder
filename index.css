@@ -1,0 +1,84 @@
+:root {
+    --black: #040D12;
+    --olive: #183D3D;
+    --light: #5C8374;
+    --brown: hsl(32, 80%, 17%);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf7i9b3fFYFAWnyPhSsxgixBByeXjl5gLM_A&usqp=CAU");
+    height: 100vh;
+}
+
+.landing nav a {
+    text-decoration: none;
+    color: var(--brown);
+}
+
+.landing a {
+    text-decoration: none;
+}
+
+nav {
+    padding: 5px;
+    margin-inline-start: 87%;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.485);
+    text-decoration: none;
+}
+
+h2 {
+    color: var(--light);
+    text-decoration: none;
+}
+
+.maintext {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+}
+
+.slogan {
+    color: var(--olive);
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.mail {
+    color: wheat;
+}
+
+.call {
+    color: blanchedalmond;
+}
+
+.socials a {
+    text-decoration: none;
+    color: rgb(100, 6, 57);
+}
+
+button {
+    padding: .3em;
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    background-color: var(--light);
+    color: whitesmoke;
+    border: 1px solid var(--light);
+    transition: all .4s ease-in-out;
+}
+
+header h2 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+header i {
+    padding: .3em;
+}

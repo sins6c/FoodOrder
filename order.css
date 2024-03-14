@@ -1,0 +1,127 @@
+:root{
+
+    --black:#040D12;
+    --olive:#183D3D;
+    --light:#5C8374;
+    --brown:hsl(32, 80%, 17%);
+    
+}
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf7i9b3fFYFAWnyPhSsxgixBByeXjl5gLM_A&usqp=CAU");
+    height: 100vh;
+
+}
+header h2{
+   
+    font-weight: bolder;
+    color: var(--light);
+    font-size:x-large;
+}
+i{
+    padding: .3em;
+}
+
+.landing nav a{
+    text-decoration: none;
+    color: var(--brown);
+    
+}
+nav 
+{
+    padding: 5px;
+    margin-inline-start:87%;
+
+}
+:hover{
+    color:rgba(0, 0, 0, 0.485);
+    text-decoration: none;
+} 
+header a{
+    text-decoration: none;
+}
+
+.title{
+    padding-left: 300px;
+    font-weight: bolder;
+    font-size: xx-large ;
+    color: rgba(53, 37, 13, 0.438);
+    line-height: 60px;
+    
+}
+
+
+
+
+
+
+.order-container {
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form {
+ 
+    flex-direction: column;
+}
+
+form  {
+    margin: 0;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+}
+
+button {
+    background-color:var(--light);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.switch {
+    display: flex;
+    justify-content: space-around;
+    background-color: #b0b0b0fe;
+}
+
+.toggle-label {
+    cursor: pointer;
+    padding: 10px;
+}
+
+#signup:checked ~ .forms #signup-form,
+#signin:checked ~ .forms #signin-form {
+    display: flex;
+}
+
+#signup:checked ~ .switch .toggle-label[for="signup"],
+#signin:checked ~ .switch .toggle-label[for="signin"] {
+    background-color: var(--olive);
+    color: var(--olive);
+}
+
+
+
+
+
+
+
+ 
